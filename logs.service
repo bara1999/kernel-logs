@@ -1,0 +1,7 @@
+[Unit]
+Description=Run the tutorialinux echo service
+
+[Service]
+ExecStart=/usr/local/bin/tutorialinux-systemd-timers.sh
+
+
