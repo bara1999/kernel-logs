@@ -1,7 +1,7 @@
 [Unit]
-Description=Run the tutorialinux echo service
+Description=Run the logs service
 
 [Service]
-ExecStart=/usr/local/bin/tutorialinux-systemd-timers.sh
+ExecStart=/usr/local/bin/logs.sh
 
 
